@@ -7,11 +7,10 @@ import android.content.Context
 import android.graphics.Color
 import android.graphics.Paint
 import android.graphics.Canvas
-import android.graphics.RectF
 import android.graphics.Path
 
 val parts : Int = 3
-val scGap : Float = 0.02f / parts
+val scGap : Float = 0.03f / parts
 val sizeFactor : Float = 4.2f
 val eFactor : Float = 2.1f
 val delay : Long = 20
