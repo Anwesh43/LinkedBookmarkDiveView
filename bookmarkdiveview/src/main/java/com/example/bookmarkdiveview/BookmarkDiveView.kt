@@ -216,4 +216,13 @@ class BookmarkDiveView(ctx : Context) : View(ctx) {
             }
         }
     }
+
+    companion object {
+
+        fun create(activity : Activity) : BookmarkDiveView {
+            val view : BookmarkDiveView = BookmarkDiveView(activity)
+            activity.setContentView(view)
+            return view
+        }
+    }
 }
